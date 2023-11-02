@@ -1,0 +1,27 @@
+algorithme exemple
+type tabent=tableau [1...n] de entier 
+type tabent=tableau [1...m] de entier 
+type tabent=tableau [1...f] de entier
+var i,j,k, s :entier 
+t1,t2,t3: tableaux 
+début 
+s=0
+pour i allant de 1 a n faire 
+lire t1[i]
+fin pour
+pour j allat de 1 à m faire 
+lire t1[j]
+fin pour 
+pour i allant de 1 a n faire 
+  pour j allat de 1 à m faire 
+si t1[i] <>t2[j] alors 
+t3[k] <-- t1[i] et t3[k] <-- t2[j] 
+sinon s<-- s+t2[j]
+finsi 
+fin pour 
+fin pour 
+pour k allant de 1 a f faire 
+lire t3[k]
+fin pour 
+écrire ("la somme est ", s)
+fin 
